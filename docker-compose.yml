@@ -29,3 +29,10 @@ services:
     entrypoint: 'tail -f /dev/null'
     volumes:
       - ./php:/app
+
+  perl:
+    build:
+      context: ./perl
+    entrypoint: 'tail -f /dev/null'
+    volumes:
+      - ./perl:/app
