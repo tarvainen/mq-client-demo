@@ -52,3 +52,14 @@ This example uses [Net::RabbitFoot](https://metacpan.org/pod/Net::RabbitFoot) in
 ```
 docker-compose exec perl perl consume.pl my exchange
 ```
+
+### Python
+
+**Use Python to consume messages**
+
+This example uses [pika](https://github.com/pika/pika) in RabbitMq communication
+
+**Usage:**
+```
+docker-compose exec python python consume.py my exchange
+```

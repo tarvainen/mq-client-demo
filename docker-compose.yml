@@ -36,3 +36,11 @@ services:
     entrypoint: 'tail -f /dev/null'
     volumes:
       - ./perl:/app
+
+
+  python:
+    build:
+      context: ./python
+    entrypoint: 'tail -f /dev/null'
+    volumes:
+      - ./python:/app
