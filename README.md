@@ -41,3 +41,14 @@ This example uses [php-enqueue/enqueue-dev](https://github.com/php-enqueue/enque
 ```
 docker-compose exec php php consume.php my exchange
 ```
+
+### Perl
+
+**Use Perl client to consume messages**
+
+This example uses [Net::RabbitFoot](https://metacpan.org/pod/Net::RabbitFoot) in RabbitMq communication
+
+**Usage:**
+```
+docker-compose exec perl perl consume.pl my exchange
+```
