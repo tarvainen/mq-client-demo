@@ -22,3 +22,10 @@ services:
       - 5672:5672
     volumes:
       - ./rabbitmq/rabbitmq_plugins:/etc/rabbitmq/enabled_plugins
+
+  php:
+    build:
+      context: ./php
+    entrypoint: 'tail -f /dev/null'
+    volumes:
+      - ./php:/app
