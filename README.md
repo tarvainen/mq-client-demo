@@ -63,3 +63,14 @@ This example uses [pika](https://github.com/pika/pika) in RabbitMq communication
 ```
 docker-compose exec python python consume.py my exchange
 ```
+
+### Nodejs
+
+**Use Nodejs to consume messages**
+
+This example uses [amqplib](https://www.npmjs.com/package/amqplib) in RabbitMq communication.
+
+**Usage:**
+```
+docker-compose exec nodejs node consume.js my exchange
+```
